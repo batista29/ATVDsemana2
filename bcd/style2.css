@@ -1,15 +1,7 @@
 body {
     background-color: rgb(44, 0, 0);
 }
-.prt1{
-    height: 23vh;
-    width: 45vh;
-}
-.prt2{
-    height: 34vh;
-    width: 45vh;
-}
-.prt1,.prt2 {
+.prt1 {
     background-color: rgb(71, 43, 38);
     color: aliceblue;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,7 +10,16 @@ body {
     margin-top: 8vh;
     border-radius: 3vh;
     border: 2px solid rgb(255, 0, 0);
+    height: 57vh;
+    width: 45vh;
 }
 input{
     border: 1px solid rgb(0, 0, 0);
+}
+button{
+    margin-top: 2vh;
+    height: 4vh;
+    width: 10vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 0, 0);
 }
